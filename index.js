@@ -1,5 +1,5 @@
 require('dotenv').config()
-const { openAIPrompt } = require('./Service/openAI');
+const { openAIPrompt } = require('./Service/azureOpenAI');
 
 const { Client, GatewayIntentBits } = require('discord.js');
 
